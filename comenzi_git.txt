@@ -32,3 +32,6 @@ git commit --message "Acesta este un mesaj descriptiv al comitului"
 
 #comanda de adaugare + commit (!!!fisierele trebuie sa fi fost incluse intr-un comit inainte)
 git commit -am "acesta este un mesaj descriptiv al comitului"
+
+#deschider4ea editorului visual studio code ca editor default pentru git
+git config --global core.editor "code --wait"
