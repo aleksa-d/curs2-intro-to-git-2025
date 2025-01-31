@@ -32,3 +32,13 @@ git commit --message "Acesta este un mesaj descriptiv al comitului"
 
 #comanda de adaugare + commit (!!!fisierele trebuie sa fi fost incluse intr-un comit inainte)
 git commit -am "acesta este un mesaj descriptiv al comitului"
+
+
+#pt a pune codul pe server
+git push 
+git push origin
+
+
+$pt a lua codul de pe server
+git pull
+git pull origin
