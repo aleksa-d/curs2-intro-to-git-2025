@@ -1,0 +1,18 @@
+
+git init   #- initializeaza proiectul de git local(creaza un folder .git ascuns)
+
+git clone  #- https://github.com/username/project (descarca de pe server un proiect de git)
+
+git log  #-arata lista de comituri
+git log --oneline
+
+git status
+git status -s  #-arata statusul fisierelor(daca sunt schimbate)
+
+git add filename
+git add .
+git add filename.*
+git add filename1 filename2 filename3  #comenzi de crare a comitului
+
+git config --global user.name " Alexandra Voicu"
+git config --global user.mail " aleksandra.voicu@gmail.com"
