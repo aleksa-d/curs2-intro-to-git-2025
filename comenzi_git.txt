@@ -1,18 +1,34 @@
+#- initializeaza proiectul de git local(creaza un folder .git ascuns)
+git init   
 
-git init   #- initializeaza proiectul de git local(creaza un folder .git ascuns)
+#- https://github.com/username/project (descarca de pe server un proiect de git)
+git clone  
 
-git clone  #- https://github.com/username/project (descarca de pe server un proiect de git)
 
-git log  #-arata lista de comituri
+#-arata lista de comituri
+git log  
 git log --oneline
 
-git status
-git status -s  #-arata statusul fisierelor(daca sunt schimbate)
 
+#-arata statusul fisierelor(daca sunt schimbate)
+git status
+git status -s  
+
+
+#comenzi de adaugare a fisierelor in STAGED(inainte de creare a comitului)
 git add filename
 git add .
 git add filename.*
 git add filename1 filename2 filename3  #comenzi de crare a comitului
 
-git config --global user.name " Alexandra Voicu"
-git config --global user.mail " aleksandra.voicu@gmail.com"
+#setarea numelui utilizatorului global
+git config --global user.name "Alexandra Voicu"
+git config --global user.email "aleksandra.voicu@gmail.com"
+
+#comenzi de creare a comitului
+git commit -m "Acesta este un mesaj descriptiv al comitului"
+git commit --message "Acesta este un mesaj descriptiv al comitului"
+
+
+#comanda de adaugare + commit (!!!fisierele trebuie sa fi fost incluse intr-un comit inainte)
+git commit -am "acesta este un mesaj descriptiv al comitului"
