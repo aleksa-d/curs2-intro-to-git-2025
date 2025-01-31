@@ -22,8 +22,8 @@ git add filename.*
 git add filename1 filename2 filename3  #comenzi de crare a comitului
 
 #setarea numelui utilizatorului global
-git config --global user.name "Alexandra Voicu"
-git config --global user.email "aleksandra.voicu@gmail.com"
+git config --global user.name "nume prenume"
+git config --global user.email "aaaassdad@gmail.com"
 
 #comenzi de creare a comitului
 git commit -m "Acesta este un mesaj descriptiv al comitului"
@@ -32,3 +32,6 @@ git commit --message "Acesta este un mesaj descriptiv al comitului"
 
 #comanda de adaugare + commit (!!!fisierele trebuie sa fi fost incluse intr-un comit inainte)
 git commit -am "acesta este un mesaj descriptiv al comitului"
+
+#deschider4ea editorului visual studio code ca editor default pentru git
+git config --global core.editor "code --wait"
